@@ -1,11 +1,1 @@
 @import "tailwindcss";
-@import "tailwindcss/base";
-@import "tailwindcss/components";
-@import "tailwindcss/utilities";
-
-/* پاک کردن margin/padding پیش‌فرض و height کامل */
-html, body {
-  margin: 0;
-  padding: 0;
-  height: 100%;
-}
