@@ -2,6 +2,8 @@ import React from "react";
 import logo from "../assets/img/logo.png";
 import NavigatioBar from "./NavbarComponents/NavigatioBar";
 import IconBtn from "./IconBtn";
+import Button from "./button";
+import { Moon02Icon } from "@hugeicons/core-free-icons";
 
 const Navbar = () => {
   return (
@@ -17,10 +19,8 @@ const Navbar = () => {
         <NavigatioBar />
 
         <div className="flex items-center gap-3.5">
-          <IconBtn />
-          <button className="flex bg-[#FF2E2E] gap-3 pt-3 pb-3 pr-6 pl-6 rounded-full text-[16px] font-medium text-white">
-            شروع یاد گیری
-          </button>
+          <IconBtn iconame={Moon02Icon}/>
+          <Button text={"در ارتباط باشید"} />
         </div>
       </div>
     </div>
